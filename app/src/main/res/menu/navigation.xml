@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_stores"
+        android:icon="@drawable/carticon"
+        android:title="@string/find_stores" />
+
+    <item
+        android:id="@+id/nav_list"
+        android:icon="@drawable/listicon"
+        android:title="@string/shopping_list" />
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/smsicon"
+        android:title="@string/notif" />
+
+</menu>

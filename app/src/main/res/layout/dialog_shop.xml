@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dialog.ShopSettingsDialog"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shopsetting_view"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/closeshops"
+        android:text="@string/close"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/shopsetting_view"
+        app:layout_constraintStart_toStartOf="@id/shopsetting_view"
+        app:layout_constraintEnd_toEndOf="@id/shopsetting_view"/>
+
+</android.support.constraint.ConstraintLayout>

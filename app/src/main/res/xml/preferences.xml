@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="stores"
+        app:summary="@string/storesummary"
+        app:title="@string/editstores"/>
+
+    <Preference
+        app:key="default"
+        app:summary="@string/defaultsummary"
+        app:title="@string/setdefaults"/>
+
+    <Preference
+        app:key="cleardefault"
+        app:title="@string/cleardefault"/>
+
+    <Preference
+        app:key="itemhistory"
+        app:title="@string/clearitems"/>
+
+    <Preference
+        app:key="cathistory"
+        app:title="@string/clearcats"/>
+
+    <PreferenceCategory
+        app:key="about_category"
+        app:title="@string/about">
+
+        <Preference
+            app:key="about"
+            app:summary="@string/aboutapp"
+            app:title="@string/about"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
